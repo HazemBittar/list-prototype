@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf8'>
+  <title>TO DO List</title>
+
+  <link href="../public/style.css" rel="stylesheet" />
+  
+
+</head>
+
+<body>
+
+  <div class="list-container">
+    <h1>TODO List</h1>
+    <a id="undo" href="javascript:;">UNDO</a>
+    <ul id="todo-view">
+      
+    </ul>
+  
+    <div class="input">
+      <form>
+        <input id="todo-item" type="text" placeholder="Enter your tasks here...">
+        <input id="submit-item" type="submit" value="add">
+      </form>
+    </div>
+  </div>
+  <!-- load the frontend testing & reviewing dependencies -->
+  <script src='./lib/review-buttons.js' type='module'></script>
+  <script src='./lib/gremlins.js'></script>
+  
+  <!-- test the app object -->
+  <script type='module' src='./src/init.js'></script>
+
+</body>
+
+</html>
