@@ -4,7 +4,8 @@ import { listPrototype } from '../list-prototype.js';
 import { logger } from '../../lib/logger.js';
 
 export const createNewListHandler = (event) => {
-
+  const newListContainer = document.getElementById('list-container');
+  newListContainer.classList.remove('hide');
   // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode !== 13) {
     return;

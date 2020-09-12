@@ -1,4 +1,4 @@
-# JavaScript Quiz
+# ToDo List Prototype
 
 ...
 
@@ -12,7 +12,7 @@
 
 ## WIREFRAME
 
-![wireframe]()
+![wireframe](../public/assets/wireframe.png)
 
 ---
 

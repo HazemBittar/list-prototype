@@ -10,9 +10,24 @@
 		background: #ccc;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 100;
+		text-align: center;
 	}
 
-	.list-container {
+	.container-for-btn {
+		display: inline-block;
+	}
+
+	#createNewList {
+		background: #7FFFD4;
+		border: 1px solid darkgrey;
+		color: white;
+		padding: 8px;
+		font-size: 15px;
+		border-radius: 4px;
+		box-shadow: 1px 1px 3px grey;
+	}
+
+	#list-container {
 		padding: 15px 10px;
 		margin: 0 auto;
 		max-width: 30em;
@@ -58,6 +73,7 @@
 		text-transform: uppercase;
 		font-size: 40px;
 		color: #fff;
+		margin: 5px;
 	}
 
 	ul {
@@ -72,7 +88,7 @@
 		transition: .2s linear;
 		position: relative;
 		font-size:20px;
-                font-weight:bold;
+    font-weight:bold;
 	}
 
 	li:hover span {
@@ -92,4 +108,11 @@
 	a {
 		color: white;
 	}
-	
+
+	.nameOfListInput {
+		margin-bottom: 30px;
+	}
+
+	.hide {
+		display: none;
+	}
